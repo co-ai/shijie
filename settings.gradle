@@ -1,0 +1,5 @@
+include ':app'
+//include ':weather'
+////**这里的test就是你即将引入的module在本工程的module name,但我们不能就这么完事了,不可能写句这样的代码就可以凭空引入一个叫test的module,下面就是告诉它这个test来自于哪里*/
+//project(':weather').projectDir = new File('E:\\AndroidCode\\CoW\\app')
+////*这句话的意思个人理解是有一个叫<test>名的项目,目录地址是 new File('module path')*/
